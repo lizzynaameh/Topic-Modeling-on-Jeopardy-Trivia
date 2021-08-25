@@ -46,20 +46,20 @@ The [original dataset](https://drive.google.com/file/d/0BwT5wj_P7BKXUl9tOUJWYzVv
 
  Initial data exploration revealed the most popular categories:
 
-![img](images/Jcategories_barplot)
+![img](images/Jcategories_barplot.png)
 
 In total, there are 27,295 actual Jeopardy categories from 1984 until 2012. From these, my analysis constructed 13 decently cohesive meta-catogies in the dataset such as PEOPLE, FILM & TV, WORDS, and HISTORY. 
 
 Below is a wordcloud based on terms appearing in the CITY meta-category, along with two representative clues:
 
-![img](images/wordcloud_city)
+![img](images/wordcloud_city.png)
 
 * "4 treaties to mitigate the horrors of war were signed in this city in August, 1949." ('What is Geneva')
 * "The last of the 13 colonies to be founded, its ‘Mother City’, Savannah, was settled in 1733." (What is Georgia)
 
 As another example, take the 'BOOKS' meta-category:
 
-![img](images/wordcloud_books)
+![img](images/wordcloud_books.png)
 
 The top Produce item is Bananas by far, and organic produce is very popular, with 15 of the top 20 products being organic.
 
@@ -68,4 +68,4 @@ The top Produce item is Bananas by far, and organic produce is very popular, wit
 
 You can interact with the live Jeopardy! Quiz Game app here. 
 
-* the answer is 'Poison Ivy League' *
+* the answer is 'The Birth of Venus Williams' *
