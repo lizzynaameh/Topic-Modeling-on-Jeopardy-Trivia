@@ -10,8 +10,13 @@ Applied NLP techniques (NMF, TFI-IDF, topic-modeling) to discover latent meta-ca
 
 Jeopardy is a trivia gameshow where contestants are presented with [general knowledge](https://en.wikipedia.org/wiki/General_knowledge) clues in the form of answers, and must phrase their responses in the form of questions. Clues are concealed under varying dollar amounts on the game board, ostensibly reflecting varying levels difficulty, and come from different categories. Popular categories include Literature, Science, Word Origins, and Before & After, a tricky category that asks users to combine clues and answers. 
 
-![img](/Users/elizabethnaameh/Desktop/Topic-Modeling-on-Jeopardy-Trivia/images/jeopardy_board.png)
+![img](images/jeopardy_board.png)
 
+Hell, we'll take Before & After for $200! 
+
+![img](images/jeopardy_clue.png)
+
+Have a think on that.
 
 
 ## Key Terms
@@ -41,20 +46,20 @@ The [original dataset](https://drive.google.com/file/d/0BwT5wj_P7BKXUl9tOUJWYzVv
 
  Initial data exploration revealed the most popular categories:
 
-![img](/Users/elizabethnaameh/Desktop/Topic-Modeling-on-Jeopardy-Trivia/images/Jcategories_barplot.png)
+![img](images/Jcategories_barplot)
 
 In total, there are 27,295 actual Jeopardy categories from 1984 until 2012. From these, my analysis constructed 13 decently cohesive meta-catogies in the dataset such as PEOPLE, FILM & TV, WORDS, and HISTORY. 
 
 Below is a wordcloud based on terms appearing in the CITY meta-category, along with two representative clues:
 
-![img](/Users/elizabethnaameh/Desktop/Topic-Modeling-on-Jeopardy-Trivia/images/wordcloud_city.png)
+![img](images/wordcloud_city)
 
 * "4 treaties to mitigate the horrors of war were signed in this city in August, 1949." ('What is Geneva')
 * "The last of the 13 colonies to be founded, its ‘Mother City’, Savannah, was settled in 1733." (What is Georgia)
 
 As another example, take the 'BOOKS' meta-category:
 
-![img](/Users/elizabethnaameh/Desktop/Topic-Modeling-on-Jeopardy-Trivia/images/wordcloud_books.png)
+![img](images/wordcloud_books)
 
 The top Produce item is Bananas by far, and organic produce is very popular, with 15 of the top 20 products being organic.
 
@@ -62,3 +67,5 @@ The top Produce item is Bananas by far, and organic produce is very popular, wit
 * In a 14-line poem Wordsworth wrote "Scorn not" this form of poetry.
 
 You can interact with the live Jeopardy! Quiz Game app here. 
+
+* the answer is 'Poison Ivy League' *
